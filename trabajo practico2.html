@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MI PAGINA WEB</title>
+    <link rel="stylesheet" href="trabajo practico2.css">
 </head>
 <body>
-    <H1>GONZALO LAMAS</H1>
-    <p>Estudiante del Instituto del Milagro</p>
 
     <header class="header">
-        <h2>INFORMACIN PERSONAL</h2>
+        <div class="nombre">
+            <H1>GONZALO LAMAS</H1>
+            <p>Estudiante del Instituto del Milagro</p>
+        </div>
         <nav>
+            <h2>INFORMACIN PERSONAL</h2>
             <A href="SOBREMI.html">SOBRE MI</A><br>
             <A href="#PROYECTOS">PROYECTOS PERSONALES</A><br>
             <A href="#CONTACTO">CONTACTO</A><br>
@@ -42,17 +45,22 @@
         <h2>FORMULARIOS</h2>
     <div class="FORMULARIOS">
         <form>
-            <label for="NOMBRE">NOMBRE</label>
+            <fieldset>
+                <legend>obligatorio xd</legend>
+                <label for="NOMBRE">NOMBRE</label>
             <input type="text" id="NOMBRE" placeholder="pon tu nombre"><br>
             <label for="CORREO">CORREO ELECTRONICO</label>
             <input type="email" id="CORREO" placeholder="pon tu correo"><br>
             <label for="MENSAJE">MENSAJE</label>
             <input type="text" id="MENSAJE" placeholder="escribe un mensaje"><br>
             <input type="submit">
+            </fieldset>
+            
         </form>
     </div>
 
     <section class="article">
+        <h2>ARTICULO</h2>
         <article>
             <h2>THE SHAWSHANK REDEMPTION</h2>
             <P>Andy Dufreine es encarcelado por matar a su esposa y al amante de esta. <br>

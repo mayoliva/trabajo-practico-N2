@@ -1,0 +1,15 @@
+header{
+    background-color: rgb(215, 233, 138);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+.nombre{
+    text-align: center;
+    font-size:  large;
+}
+.header{
+    text-align: center;
+    font-size: large;
+}
